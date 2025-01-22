@@ -2,5 +2,5 @@
 int main()
 {
 char a[10];
-scanf("%s",&a);
+scanf("%c",&a);
 pritnf("You entered: %s",a);}
