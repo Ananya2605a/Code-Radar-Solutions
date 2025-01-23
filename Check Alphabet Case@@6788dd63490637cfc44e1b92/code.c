@@ -4,5 +4,7 @@ char alpha;
 scanf("%c",&alpha);
 if(alpha>='A' && alpha<='Z')
 printf("Uppercase");
-else
+else if (alpha>='a' && aplha<='z')
 printf("Lowercase");
+else
+printf("Not an alphabet");
