@@ -2,13 +2,13 @@
 
 int main()
 {
-    int a,b,c;
+    int a,b,c,;
     scanf("%d",&c);
     for(a=1;a<=c;a++)
     {
         for(b=1;b<=a;b++)
         {
-            if(b==1 || b==d || a==1 || a==d)
+            if(b==1 || b==c || a==1 || a==c)
             printf("*");
             else
             printf(" ");
