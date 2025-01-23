@@ -1,5 +1,7 @@
 #include <stdio.h>
 
+int main()
+{
 char alpha;
 scanf("%c",&alpha);
 if(alpha>='A' && alpha<='Z')
@@ -8,3 +10,4 @@ else if (alpha>='a' && aplha<='z')
 printf("Lowercase");
 else
 printf("Not an alphabet");
+}
