@@ -1,22 +1,19 @@
 #include <stdio.h>
 
-int a,b;
-char opr;
-scanf("%d %d",&a,&b);
-scanf("%c",&opr);
-switch(opr){
-    case '+':
+int main()
+{
+    int a,b;
+    char c;
+    scanf("%d %d",&a,&b);
+    scanf("%c",&c);
+    if(c=='+')
     printf("%d",a+b);
-    break;
-    case '-':
+    else if(c=='-')
     printf("%d",a-b);
-    break;
-    case '*':
+    else if(c=='*')
     printf("%d",a*b);
-    break;
-    case '/':
+    else if(c=='/')
     printf("%d",a/b);
-    break;
-    default:
-    printf("none");
+    else
+    printf("error");
 }
