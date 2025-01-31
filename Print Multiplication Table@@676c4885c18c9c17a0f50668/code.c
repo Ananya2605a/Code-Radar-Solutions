@@ -7,6 +7,6 @@ int main()
     for(a=1;a<=10;a++)
     {
         c=a*N;
-        printf("%d x %d = %d",N,a,c);
+        printf("%d x %d = %d\n",N,a,c);
     }
 }
