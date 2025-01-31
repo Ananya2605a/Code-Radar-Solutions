@@ -2,15 +2,15 @@
 
 int main()
 {
-    int a,b,c,d;
-    scanf("%d",&d);
-    for(a=1;a<=d;a++)
+    int a,b,c,N;
+    scanf("%d",&N);
+    for(a=N;a>=1;a--)
     {
-        for(c=d;c>=a;a--)
+        for(c=1;c<=a;a++)
         {
             printf(" ");
         }
-        for(b=1;b<=a;b++)
+        for(b=N;b>=a;b--)
         {
             printf("*");
         }
