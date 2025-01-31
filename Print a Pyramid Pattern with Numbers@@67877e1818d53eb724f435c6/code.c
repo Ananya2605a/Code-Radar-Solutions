@@ -14,3 +14,4 @@ for(a=1;a<=d;a++)
     }
     printf("\n");
 }
+return 0;
