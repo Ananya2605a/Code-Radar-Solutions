@@ -4,15 +4,9 @@ int main()
 {
     int a,N;
     scanf("%d",&N);
-    a=1;
-    while(a<=N)
+    for (a=1;a<=N;a++)
     {
-        printf("%d ",N);
-        a++;
+        printf("%d",a);
     }
-    /*for (a=1;a<=N;a++)
-    {
-        printf("%d ", N);
-    }*/
     return 0;
 }
