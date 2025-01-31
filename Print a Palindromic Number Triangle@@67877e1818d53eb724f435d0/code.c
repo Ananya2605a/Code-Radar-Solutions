@@ -17,6 +17,7 @@ for(a=1;a<=N;a++)
     {
         printf("%d",c);
     }
+    printf("\n");
 }
 return 0;
 }
