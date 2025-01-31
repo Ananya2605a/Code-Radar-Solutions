@@ -6,6 +6,6 @@ int main()
     scanf("%d",&N);
     for(a=1;a<=N;a++)
     {
-        printf("%d\t",N);
+        printf("%d ",N);
     }
 }
