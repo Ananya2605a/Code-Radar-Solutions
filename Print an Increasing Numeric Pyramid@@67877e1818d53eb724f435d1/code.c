@@ -6,9 +6,13 @@ int main()
     scanf("%d",&N);
     for(a=1;a<=N;a++)
     {
+        for(c=N;c>=a;c--)
+        {
+            printf(" ");
+        }
         for(b=1;b<=a;b++)
         {
-            printf("%d ",b);
+            printf("%d",b);
         }
         printf("\n");
     }
