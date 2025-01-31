@@ -2,8 +2,8 @@
 
 int main()
 {
-    int a, N;
-    scanf("%d", &N);
+    int a,N;
+    scanf("%d",&N);
     a=1;
     while(a<=N)
     {
