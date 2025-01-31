@@ -4,6 +4,6 @@ int main()
 {
     int a,b,c;
     scanf("%d %d",&a,&b);
-    c=0<<(b-1);
+    c= a | (1<<b);
     printf("%d",c);
 }
