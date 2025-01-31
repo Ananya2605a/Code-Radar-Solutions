@@ -2,9 +2,9 @@
 
 int main()
 {
-    int a,b,c,d;
+    int a,b,c;
     scanf("%d %d",&a,&b);
-    c=(1<<(b-1));
+    c=(1<(b-1));
     if(a & c)
     {
         printf("0");
