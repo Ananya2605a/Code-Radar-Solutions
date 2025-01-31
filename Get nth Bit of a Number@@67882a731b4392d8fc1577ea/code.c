@@ -5,13 +5,13 @@ int main()
     int a,b,c,d;
     scanf("%d %d",&a,&b);
     c=(1<<(b-1));
-    if(a & c)
+    if(a && c)
     {
-        printf("1\n");
+        printf("0");
     }
     else
     {
-        printf("0\n");
+        printf("1");
     }
     return 0;
 }
