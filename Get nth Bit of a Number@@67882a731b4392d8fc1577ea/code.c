@@ -7,11 +7,11 @@ int main()
     c=1<< (b-1);
     if(a & c)
     {
-        printf(1);
+        printf("1");
     }
     else
     {
-        printf(0);
+        printf("0");
     }
     return 0;
 }
