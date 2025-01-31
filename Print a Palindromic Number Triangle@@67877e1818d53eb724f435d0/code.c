@@ -13,7 +13,7 @@ for(a=1;a<=N;a++)
     {
         printf("%d",c);
     }
-    for(c=N;c>=a;c--)
+    for(c=N-1;c>=a;c--)
     {
         printf("%d",c);
     }
