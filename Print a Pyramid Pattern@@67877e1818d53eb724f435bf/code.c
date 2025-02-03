@@ -8,7 +8,7 @@ int main()
     {
         for(c=d;c>=1;c--)
         {
-            printf("");
+            printf(" ");
         }
         for(b=1;b<=a;b++)
         {
