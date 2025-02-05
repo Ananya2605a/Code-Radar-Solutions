@@ -6,9 +6,9 @@ int main()
     scanf("%d",&c);
     for(a=1;a<=c;a++)
     {
-        for(b=1;b<=a;b++)
+        for(b=1;b<=c;b++)
         {
-            if(b==1 || b==a || a==1 || a==c)
+            if(b==1 || b==c || a==1 || a==c)
             printf("*");
             else
             printf(" ");
