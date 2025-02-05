@@ -1,5 +1,6 @@
 #include <stdio.h>
-
+int main()
+{
 int a,b,c,d;
 scanf("%d",&d);
 for(a=1;a<=d;a++)
@@ -14,4 +15,4 @@ for(a=1;a<=d;a++)
     }
     printf("\n");
 }
-return 0;
+}
