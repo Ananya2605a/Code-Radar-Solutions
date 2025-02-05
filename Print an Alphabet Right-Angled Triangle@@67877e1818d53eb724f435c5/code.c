@@ -2,9 +2,9 @@
 
 int main()
 {
-    int a,b,n;
-    scanf("%c",&n);
-    for(a='A';a<=n;a++)
+    int a,b,N;
+    scanf("%c",&N);
+    for(a='A';a<=N;a++)
     {
         for(b='A';b<=a;b++)
         {
