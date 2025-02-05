@@ -8,8 +8,8 @@ int main()
     {
         for(b=0;b<a;b++)
         {
-            printf("%c",'A'+b);
+            printf("%c \n",'A'+b);
         }
-        printf("\n");
+        // printf("\n");
     }
 }
