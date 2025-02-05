@@ -2,11 +2,11 @@
 
 int main()
 {
-    char a,b,N;
+    int a,b,N;
     scanf("%c",&N);
-    for(a=N; a>= 'A'; a--)
+    for(a=N; a>=1; a--)
     {
-        for(b='A'; b<=a; b++)
+        for(b=0; b<a; b++)
         {
             printf("%c ",'A'-b);
         }
