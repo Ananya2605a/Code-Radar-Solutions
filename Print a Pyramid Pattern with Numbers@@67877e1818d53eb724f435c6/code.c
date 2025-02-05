@@ -10,7 +10,7 @@ for(a=1;a<=d;a++)
     }
     for(b=1;b<=a;b++)
     {
-        printf("%d",b);
+        printf("%d ",b);
     }
     printf("\n");
 }
