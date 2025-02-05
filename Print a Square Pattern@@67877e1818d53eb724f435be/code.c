@@ -8,9 +8,9 @@ int main()
     {
         for(b=1;b<=a;b++)
         {
-            if(b==1 || b==c)
-            printf("*");
+            printf("* ");
         }
-        peinrf("\n");
+        printf("\n");
     }
+    return 0;
 }
