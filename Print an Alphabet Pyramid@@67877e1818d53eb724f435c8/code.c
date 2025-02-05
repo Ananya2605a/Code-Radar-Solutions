@@ -2,11 +2,11 @@
 
 int main()
 {
-    int a,b,N;
-    scanf("%d",&N);
-    for(a=65;a<=N;a++)
+    char a,b,N;
+    scanf("%c",&N);
+    for(a='A';a<=N;a++)
     {
-        for(b=65;b<=a;b++)
+        for(b='A';b<=a;b++)
         {
             printf("%c",b);
         }
