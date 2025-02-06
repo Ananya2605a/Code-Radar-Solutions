@@ -1,14 +1,14 @@
 #include <stdio.h>
 int main()
 {
-    int a,b,N,n;
-    scanf("%d",&N);
-    for(a=1;a<=N;a++)
+    int n,num=1,i,j;
+    scanf("%d",&n);
+    for(i=1;i<=n;i++)
     {
-        for(b=1;b<=a;b++)
+        for(j=1;j<=i;j++)
         {
-            printf("%d ",n);
-            n=(n==1) ? 0:1;
+            printf("%d ",num);
+            num=!num;
         }
         printf("\n");
     }
