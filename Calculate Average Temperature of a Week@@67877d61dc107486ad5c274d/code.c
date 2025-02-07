@@ -22,6 +22,6 @@ int main()
         avg+=e[a].t;
     }
     avg=avg/7;
-    printf("Average Temperature: %.2f",avg);
+    printf("Average Temperature: %.2f\n",avg);
     return 0;
 }
