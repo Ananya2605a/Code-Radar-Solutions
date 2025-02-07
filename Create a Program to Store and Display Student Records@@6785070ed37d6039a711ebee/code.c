@@ -4,7 +4,7 @@
     {
         int r;
         char n[20];
-        int m;
+        float m;
     };
 int main()
 {
@@ -15,11 +15,11 @@ int main()
     {
         scanf("%d",&e[a].r);
         scanf("%s",e[a].n);
-        scanf("%d",&e[a].m);
+        scanf("%f",&e[a].m);
     }
     for(a=0;a<N;a++)
     {
-          printf("Roll Number: %d, Name: %s,Marks: %d\n",e[a].r,e[a].n,e[a].m);
+          printf("Roll Number: %d, Name: %s, Marks: %f\n",e[a].r,e[a].n,e[a].m);
     }
     return 0;
 }
