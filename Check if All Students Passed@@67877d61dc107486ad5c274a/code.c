@@ -19,12 +19,17 @@ int main()
     }
     for(a=0;a<N;a++)
     {
-        if(e[a].m>50)
-        {
-        printf("All Passed");}
+        if(e[a].m<=50)
+        all_passed=0;
         break;
-        else{
-        printf("Not All Passesd");}
+    }
+    if(all_passed)
+    {
+        printf("All Passed\n");
+    }
+    else
+    {
+        printf("Not All Passed\n");
     }
     return 0;
 }
