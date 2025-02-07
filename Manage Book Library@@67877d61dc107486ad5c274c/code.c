@@ -22,6 +22,7 @@ int main()
     {
         if(e[b].p>c)
         {
+            printf("Books above price %c",c);
             printf("Title: %s, Author: %s, Price: %.2f\n",e[b].t,e[b].a,e[b].p);
         }
     }
