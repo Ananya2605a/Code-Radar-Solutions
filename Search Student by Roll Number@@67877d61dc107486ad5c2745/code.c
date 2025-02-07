@@ -26,7 +26,7 @@ int main()
         found = 1;
         break;
     }
-    if(b!=e[a].e)
+    if(!found)
     printf("Student not found");
     
     return 0;
