@@ -5,7 +5,7 @@ struct ad
     int r;
     char n[20];
     float m;
-}
+};
 int main()
 {
     int N,a
