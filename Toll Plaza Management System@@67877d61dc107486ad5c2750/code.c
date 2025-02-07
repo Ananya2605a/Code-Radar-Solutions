@@ -18,14 +18,20 @@ int main()
         scanf("%s",e[a].t);
         scanf("%d",&e[a].a);
     }
-    for(a=0;a<7;a++)
+    for(a=0;a<N;a++)
     {
        if(strcmp(e[a].t,"Car")==0)
+       {
        Cars+=e[a].a;
+       }
        else if(strcmp(e[a].t,"Truck")==0)
+       {
        Trucks+=e[a].a;
+       }
        else 
+       {
        Bikes+=e[a].a;
+       }
     }
     printf("Cars: %.2f, Trucks: %.2f, Bikes: %.2f",Cars,Trucks,Bikes);
     return 0;
