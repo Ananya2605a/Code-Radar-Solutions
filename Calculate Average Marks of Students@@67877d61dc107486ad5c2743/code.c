@@ -9,16 +9,16 @@ struct ad
 int main()
 {
     int N,a;
-    float avg;
+    float avg=0;
     scanf("%d",&N);
     struct ad e[20];
-    for(a=1;a<=N;a++)
+    for(a=0;a<=N;a++)
     {
         scanf("%d",&e[a].r);
         scanf("%s",e[a].n);
         scanf("%f",&e[a].m);
     }
-    for(a=1;a<=N;a++)
+    for(a=0;a<=N;a++)
     {
         avg+=e[a].m;
     }
