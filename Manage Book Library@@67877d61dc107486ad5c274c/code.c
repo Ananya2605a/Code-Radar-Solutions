@@ -22,7 +22,7 @@ int main()
     {
         if(e[b].p>c)
         {
-            printg("Title: %s, Author: %s, Price: %.2f",e[b].t,e[b].a,e[b].p);
+            printf("Title: %s, Author: %s, Price: %.2f",e[b].t,e[b].a,e[b].p);
         }
     }
     return 0;
