@@ -22,7 +22,7 @@ int main()
     {
         avg+=e[a].m;
     }
-    avg=avg/n;
+    avg=avg/N;
     printf("Average Marks: %.2f",avg);
     return 0;
 }
