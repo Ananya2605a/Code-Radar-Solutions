@@ -13,6 +13,9 @@ int main()
     struct ad e[20];
     struct ad highest;
     highest.m= -1;
+    highest.r= -1;
+    highest.n="bob";
+
         for(a=1;a<=N;a++)
         {
             scanf("%d",&e[a].r);
