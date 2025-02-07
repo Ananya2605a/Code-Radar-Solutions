@@ -19,11 +19,11 @@ int main()
         scanf("%f",&e[b].p);
     }
     scanf("%f",&c);
+    printf("Books above price %.2f:\n",c);
     for(b=1;b<=N;b++)
     {
         if(e[b].p>c)
         {
-            printf("Books above price %.2f:\n",c);
             printf("Title: %s, Author: %s, Price: %.2f\n",e[b].t,e[b].a,e[b].p);
         }
     }
