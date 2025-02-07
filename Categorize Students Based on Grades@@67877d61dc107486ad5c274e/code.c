@@ -22,7 +22,7 @@ int main()
         if(e[a].m>=85)
         {
         printf("Roll Number: %d, Name: %s, Grade: A\n",e[a].r,e[a].n);}
-        else if(e[a].m>70 && e[a].m<84){
+        else if(e[a].m>=70 && e[a].m<84){
         printf("Roll Number: %d, Name: %s, Grade: B\n",e[a].r,e[a].n);}
         else 
         {printf("Roll Number: %d, Name: %s, Grade: C\n",e[a].r,e[a].n);}
