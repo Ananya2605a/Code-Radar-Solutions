@@ -25,6 +25,6 @@ int main()
         num++;
     }
 
-    printf("Count of student scoring above t: %f",num);
+    printf("Count of student scoring above %f: %f",t,num);
     return 0;
 }
