@@ -23,15 +23,15 @@ int main()
     {
        if(strcmp(e[a].t,"Standard")==0)
        {
-       Standard+=e[a].a;
+       Standard+=e[a].p;
        }
        else if(strcmp(e[a].t,"Premium")==0)
        {
-       Premium+=e[a].a;
+       Premium+=e[a].p;
        }
        else 
        {
-       VIP+=e[a].a;
+       VIP+=e[a].p;
        }
     }
     printf("Standard: %.2f, Premium: %.2f, VIP: %.2f",Standard,Premium,VIP);
