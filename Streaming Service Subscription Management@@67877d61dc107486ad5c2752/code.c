@@ -11,7 +11,7 @@ int main()
 {
     int a,N;
     int Standard=0,Premium=0,Basic=0;
-    float revenue,revenue2,revenue;
+    float revenue=0,revenue2=0,revenue=0;
     scanf("%d",&N);
     struct Subscription e[20];
     for(a=0;a<N;a++)
@@ -38,6 +38,6 @@ int main()
        revenue3+=e[a].p;
        }
     }
-    printf("Baic: %d Users, Revenue: %.2f; Standard: %d Users,\nRevenue: %.2f; Premium: %d Users, Revenue: %.2f",Basic,revenue,Standard,revenue2,Premium,revenue3);
+    printf("Basic: %d Users, Revenue: %.2f; Standard: %d Users,\nRevenue: %.2f; Premium: %d Users, Revenue: %.2f",Basic,revenue,Standard,revenue2,Premium,revenue3);
     return 0;
 }
