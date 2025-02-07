@@ -21,6 +21,7 @@ int main()
     {
         if(e[a].m>50)
         printf("All Passed");
+        break;
         else
         printf("Not All Passesd");
     }
