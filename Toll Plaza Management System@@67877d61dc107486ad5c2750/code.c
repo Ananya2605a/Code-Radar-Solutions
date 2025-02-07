@@ -21,11 +21,11 @@ int main()
     for(a=0;a<7;a++)
     {
        if(strcmp(e[a].t=="Car"))
-       Cars+=e[a].t;
+       Cars+=e[a].a;
        else if(strcmp(e[a].t=="Truck"))
-       Trucks+=e[a].t;
+       Trucks+=e[a].a;
        else 
-       Bikes+=e[a].t;
+       Bikes+=e[a].a;
     }
     printf("Cars: %d, Trucks: %d, Bikes: %d",Cars,Trucks,Bikes);
     return 0;
