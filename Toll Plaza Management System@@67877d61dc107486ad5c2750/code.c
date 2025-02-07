@@ -9,7 +9,7 @@ struct Vehicle
 int main()
 {
     int a,N;
-    int Cars=0,Trucks=0,Bikes=0;
+    float Cars=0,Trucks=0,Bikes=0;
     scanf("%d",&N);
     struct Vehicle e[20];
     for(a=0;a<N;a++)
@@ -27,6 +27,6 @@ int main()
        else 
        Bikes+=e[a].a;
     }
-    printf("Cars: %d, Trucks: %d, Bikes: %d",Cars,Trucks,Bikes);
+    printf("Cars: %.2f, Trucks: %.2f, Bikes: %.2f",Cars,Trucks,Bikes);
     return 0;
 }
