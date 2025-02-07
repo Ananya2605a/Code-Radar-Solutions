@@ -10,7 +10,7 @@ int main()
 {
     int a;
     float avg=0;
-    struct Day e[20];
+    struct Day e[7];
     for(a=0;a<7;a++)
     {
         scanf("%s",e[a].d);
