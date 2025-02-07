@@ -12,7 +12,7 @@ int main()
     scanf("%d",&N);
     struct ad e[20];
     struct ad highest;
-    highest.m=-1
+    highest.m= -1;
         for(a=1;a<=N;a++)
         {
             scanf("%d",&e[a].r);
