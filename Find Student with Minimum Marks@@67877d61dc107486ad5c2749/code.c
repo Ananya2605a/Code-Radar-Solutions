@@ -34,7 +34,7 @@ int main()
                 
             }
         }
-        printf("Student with Minimum Marks: Roll Number: %d, Name: %s, Marks: %.2f",highest.r,highest.n,highest.m);
+        printf("Student with Minimum Marks: Roll Number: %d, Name: %s, Marks: %.2f",lowest.r,lowest.n,lowest.m);
             return 0;
     }
 
