@@ -19,7 +19,7 @@ int main()
     }
     for(a=1;a<=7;a++)
     {
-        avg+=e[a].m;
+        avg+=e[a].t;
     }
     avg=avg/7;
     printf("Average Temperature: %.2f",avg);
