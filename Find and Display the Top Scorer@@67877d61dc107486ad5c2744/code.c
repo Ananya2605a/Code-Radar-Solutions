@@ -1,4 +1,5 @@
 #include <stdio.h>
+#include<string.h>
 
 struct ad
 {
@@ -14,7 +15,7 @@ int main()
     struct ad highest;
     highest.m= -1;
     highest.r= -1;
-    highest.n="bob";
+    strcpy(highest.n,"bob");
 
         for(a=1;a<=N;a++)
         {
@@ -29,7 +30,8 @@ int main()
             {
                 highest.m=e[a].m;
                 highest.r=e[a].r;
-                highest.n=e[a].n;
+                strcpy(highest.n,e[a].n);
+                
             }
         }
         printf("Top Scorer: Roll Number: %d, Name: %s, Marks: %.2f",highest.r,highest.n,highest.m);
