@@ -25,6 +25,8 @@ int main()
             if(e[a].m>highest.m)
             {
                 highest.m=e[a].m;
+                highest.r=e[a].r;
+                highest.n=e[a].m;
             }
         }
         printf("Top Scorer: Roll Number: %d, Name: %s, Marks: %.2f",highest.r,highest.n,highest.m);
