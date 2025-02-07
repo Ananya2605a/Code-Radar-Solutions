@@ -22,9 +22,11 @@ int main()
     for(a=0;a<N;a++)
     {
         if(b==e[a].r)
+        {
         printf("Roll Number: %d, Name: %s, Marks: %.2f",e[a].r,e[a].n,e[a].m);
         found = 1;
         break;
+    }
     }
     if(!found)
     {
