@@ -9,6 +9,7 @@ struct ad
 int main()
 {
     int N,a,num;
+    int all_passed=1;
     scanf("%d",&N);
     struct ad e[20];
     for(a=0;a<N;a++)
