@@ -6,7 +6,7 @@
         char n[20];
         int m;
     };
-main()
+int main()
 {
     int N,a;
     struct ad e[20];
