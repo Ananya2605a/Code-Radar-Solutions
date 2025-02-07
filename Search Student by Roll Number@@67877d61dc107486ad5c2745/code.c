@@ -18,15 +18,16 @@ int main()
 
     }
         scanf("%d",&b);
+        int found = 0;
     for(a=0;a<N;a++)
     {
         if(b==e[a].r)
         printf("Roll Number: %d, Name: %s, Marks: %.2f",e[a].r,e[a].n,e[a].m);
+        found = 1;
         break;
-        else
-        printf("Student not found");
-
     }
+    if(b!=e[a].e)
+    printf("Student not found");
     
     return 0;
     
