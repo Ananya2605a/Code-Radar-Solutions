@@ -27,5 +27,6 @@ int main()
         else
         printf("Student not found");
     }
+    return 0;
     
 }
