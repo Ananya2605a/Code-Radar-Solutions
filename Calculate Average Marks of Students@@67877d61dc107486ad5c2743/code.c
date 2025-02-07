@@ -8,10 +8,10 @@ struct ad
 };
 int main()
 {
-    int N,a
+    int N,a;
     float avg;
     scanf("%d",&N);
-    struct ad e[20]
+    struct ad e[20];
     for(a=1;a<=N;a++)
     {
         scanf("%d",&e[a].r);
@@ -20,8 +20,9 @@ int main()
     }
     for(a=1;a<=N;a++)
     {
-        avg=e[a].m/N;
+        avg+=e[a].m;
     }
+    avg=avg/n;
     printf("Average Marks: %.2f",avg);
     return 0;
 }
