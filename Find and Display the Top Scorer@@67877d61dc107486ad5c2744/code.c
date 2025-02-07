@@ -28,7 +28,6 @@ int main()
             }
         }
         printf("Top Scorer: Roll Number: %d, Name: %s, Marks: %.2f",highest.r,highest.n,highest.m);
-
+            return 0;
     }
-    return 0;
-}
+
