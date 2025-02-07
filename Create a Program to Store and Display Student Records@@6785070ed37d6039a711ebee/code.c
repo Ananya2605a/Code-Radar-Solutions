@@ -19,7 +19,7 @@ int main()
     }
     for(a=0;a<N;a++)
     {
-          printf("Roll Number: %d, Name: %s,Marks: %d",e[a].r,e[a].n,e[a],m);
+          printf("Roll Number: %d, Name: %s,Marks: %d\n",e[a].r,e[a].n,e[a].m);
     }
     return 0;
 }
