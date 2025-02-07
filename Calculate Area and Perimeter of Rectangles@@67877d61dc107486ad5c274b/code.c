@@ -11,12 +11,12 @@ int main()
  float area,perimeter;
  scanf("%d",&N); 
  struct Rectangle e[20];
- for(a=0;a<N;a++)
+ for(a=1;a<=N;a++)
  {
     scanf("%d",&e[a].length);
     scanf("%d",&e[a].breadth);
  }
- for(a=0;a<N;a++)
+ for(a=1;a<=N;a++)
  {
     area=e[a].length*e[a].breadth;
     perimeter=2*(e[a].length+e[a].breadth);
