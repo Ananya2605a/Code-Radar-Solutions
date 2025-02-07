@@ -22,10 +22,12 @@ int main()
     {
         if(b==e[a].r)
         printf("Roll Number: %d, Name: %s, Marks: %.2f",e[a].r,e[a].n,e[a].m);
-      
+        break;
+        else
+        printf("Student not found");
+
     }
-    if(b!=e[a].r)
-    printf("Student not found");
+    
     return 0;
     
 }
