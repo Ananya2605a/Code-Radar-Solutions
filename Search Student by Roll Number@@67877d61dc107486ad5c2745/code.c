@@ -17,14 +17,11 @@ int main()
         scanf("%f",&e[a].m);
 
     }
-    for(a=0;a<N;a++)
-    {
         scanf("%d",&b);
-    }
     for(a=0;a<N;a++)
     {
         if(b==e[a].r)
-        printf("Roll Number: %d, Name: %s, Marks: %.2f",e[a].r,e[a].s,e[a].m);
+        printf("Roll Number: %d, Name: %s, Marks: %.2f",e[a].r,e[a].n,e[a].m);
         else
         printf("Student not found");
     }
