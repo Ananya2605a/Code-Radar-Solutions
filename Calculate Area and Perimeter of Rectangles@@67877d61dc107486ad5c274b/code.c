@@ -19,7 +19,7 @@ int main()
  for(a=0;a<N;a++)
  {
     area=e[a].length*e[a].breadth;
-    perimeter=2(e[a].length+e[a].breadth);
+    perimeter=2*(e[a].length+e[a].breadth);
  }
  for(a=0;a<N;a++)
  {
