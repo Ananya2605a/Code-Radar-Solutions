@@ -1,5 +1,7 @@
 #include <stdio.h>
 
+int main()
+{
 int a[50];
 	int p,b,d,temp;
 	//printf("ENTER THE LIMIT OF ARRAY : ");
