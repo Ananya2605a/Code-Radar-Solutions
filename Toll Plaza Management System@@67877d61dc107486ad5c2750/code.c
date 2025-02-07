@@ -20,9 +20,9 @@ int main()
     }
     for(a=0;a<7;a++)
     {
-       if(strcmp(e[a].t=="Car"))
+       if(strcmp(e[a].t,"Car")==0)
        Cars+=e[a].a;
-       else if(strcmp(e[a].t=="Truck"))
+       else if(strcmp(e[a].t,"Truck")==0)
        Trucks+=e[a].a;
        else 
        Bikes+=e[a].a;
