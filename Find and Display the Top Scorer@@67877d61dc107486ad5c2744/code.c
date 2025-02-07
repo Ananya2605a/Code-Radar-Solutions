@@ -6,7 +6,7 @@ struct ad
     char n[20];
     float m;
 };
-main()
+int main()
 {
      int N,a;
     scanf("%d",&N);
