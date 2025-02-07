@@ -22,7 +22,7 @@ int main()
         if(e[a].m>t)
         printf("All Passed");
         else
-        printf("Not All Passesd")
+        printf("Not All Passesd");
     }
     return 0;
 }
