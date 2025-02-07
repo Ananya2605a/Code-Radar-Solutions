@@ -1,15 +1,15 @@
 #include <stdio.h>
 
-int main()
-{
-    struct ad
+ struct ad
     {
         int r[20];
         char n[20];
         int m[10];
-        int N,a;
-    }
-    struct ad e;
+    };
+main()
+{
+    int N,a;
+    struct ad e[20];
     scanf("%d",&N);
     for(a=1;a<=N;a++)
     {
@@ -18,4 +18,5 @@ int main()
         scanf("%d",&e.m);
         printf("Roll Number: %d, Name: %s,Marks: %d",e.r,e.n,e,m);
     }
+    return 0;
 }
