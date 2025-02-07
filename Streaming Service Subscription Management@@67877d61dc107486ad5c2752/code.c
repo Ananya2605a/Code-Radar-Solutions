@@ -11,7 +11,7 @@ int main()
 {
     int a,N;
     int Standard=0,Premium=0,Basic=0;
-    float revenue=0,revenue2=0,revenue=0;
+    float revenue=0,revenue2=0,revenue3=0;
     scanf("%d",&N);
     struct Subscription e[20];
     for(a=0;a<N;a++)
