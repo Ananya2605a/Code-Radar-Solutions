@@ -10,7 +10,7 @@ int main()
 {
     int N,b,c;
     scanf("%d",&N);
-    struct Book e[20]
+    struct Book e[20];
     for(b=1;b<=N;b++)
     {
         scanf("%s",e[b].t);
