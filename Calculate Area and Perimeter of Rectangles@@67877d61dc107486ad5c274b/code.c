@@ -20,7 +20,7 @@ int main()
  {
     area=e[a].length*e[a].breadth;
     perimeter=2*(e[a].length+e[a].breadth);
-    printf("Rectangle %d: Area = %.2f, Perimeter = %.2f",a,area,perimeter);
+    printf("Rectangle %d: Area = %.2f, Perimeter = %.2f\n",a,area,perimeter);
  }
  return 0;
  
