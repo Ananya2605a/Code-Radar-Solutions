@@ -13,10 +13,13 @@ main()
     scanf("%d",&N);
     for(a=1;a<=N;a++)
     {
-        scanf("%d",&e.r);
-        scanf("%s",e.n);
-        scanf("%d",&e.m);
-        printf("Roll Number: %d, Name: %s,Marks: %d",e.r,e.n,e,m);
+        scanf("%d",&e[a].r);
+        scanf("%s",e[a].n);
+        scanf("%d",&e[a].m);
+    }
+    for(a=1;a<=N,a++)
+    {
+          printf("Roll Number: %d, Name: %s,Marks: %d",e[a].r,e[a].n,e[a],m);
     }
     return 0;
 }
