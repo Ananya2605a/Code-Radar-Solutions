@@ -20,10 +20,11 @@ int main()
     for(a=0;a<N;a++)
     {
         if(e[a].m>50)
-        printf("All Passed");
+        {
+        printf("All Passed");}
         break;
-        else
-        printf("Not All Passesd");
+        else{
+        printf("Not All Passesd");}
     }
     return 0;
 }
