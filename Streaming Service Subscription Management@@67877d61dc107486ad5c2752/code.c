@@ -5,7 +5,7 @@ struct Subscription
 {
     char n[20];
     char t[20];
-    int p;
+    float p;
 };
 int main()
 {
@@ -18,7 +18,7 @@ int main()
     {
         scanf("%s",e[a].n);
         scanf("%s",e[a].t);
-        scanf("%d",&e[a].p);
+        scanf("%f",&e[a].p);
     }
     for(a=0;a<N;a++)
     {
