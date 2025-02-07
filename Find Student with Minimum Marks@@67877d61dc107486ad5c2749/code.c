@@ -12,10 +12,10 @@ int main()
      int N,a;
     scanf("%d",&N);
     struct ad e[20];
-    struct ad highest;
-    highest.m= -1;
-    highest.r= -1;
-    strcpy(highest.n,"bob");
+    struct ad lowest;
+    lowest.m= 100;
+    lowest.r= 1;
+    strcpy(lowest.n,"bob");
 
         for(a=1;a<=N;a++)
         {
@@ -26,15 +26,15 @@ int main()
         }
         for(a=1;a<=N;a++)
         {
-            if(e[a].m<highest.m)
+            if(e[a].m<lowest.m)
             {
-                highest.m=e[a].m;
-                highest.r=e[a].r;
-                strcpy(highest.n,e[a].n);
+                lowest.m=e[a].m;
+                lowest.r=e[a].r;
+                strcpy(lowest.n,e[a].n);
                 
             }
         }
-        printf("Top Scorer: Roll Number: %d, Name: %s, Marks: %.2f",highest.r,highest.n,highest.m);
+        printf("Student with Minimum Marks: Roll Number: %d, Name: %s, Marks: %.2f",highest.r,highest.n,highest.m);
             return 0;
     }
 
