@@ -29,7 +29,7 @@ int main()
             {
                 highest.m=e[a].m;
                 highest.r=e[a].r;
-                highest.n=e[a].m;
+                highest.n=e[a].n;
             }
         }
         printf("Top Scorer: Roll Number: %d, Name: %s, Marks: %.2f",highest.r,highest.n,highest.m);
