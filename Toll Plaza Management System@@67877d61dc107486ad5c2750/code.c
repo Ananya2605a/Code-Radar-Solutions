@@ -9,7 +9,7 @@ struct Vehicle
 int main()
 {
     int a,N;
-    int Cars,Trucks,Bikes;
+    int Cars=0,Trucks=0,Bikes=0;
     scanf("%d",&N);
     struct Vehicle e[20];
     for(a=0;a<N;a++)
@@ -20,9 +20,9 @@ int main()
     }
     for(a=0;a<7;a++)
     {
-       if(e[a].t==Car)
+       if(strcmp(e[a].t=="Car"))
        Cars+=e[a].t;
-       else if(e[a].t==Truck)
+       else if(strcmp(e[a].t=="Truck"))
        Trucks+=e[a].t;
        else 
        Bikes+=e[a].t;
