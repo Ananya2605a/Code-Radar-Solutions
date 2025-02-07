@@ -8,7 +8,8 @@ struct Book
 };
 int main()
 {
-    int N,b,c;
+    int N,b;
+    float c;
     scanf("%d",&N);
     struct Book e[20];
     for(b=1;b<=N;b++)
@@ -17,12 +18,12 @@ int main()
         scanf("%s",e[b].a);
         scanf("%f",&e[b].p);
     }
-    scanf("%d",&c);
+    scanf("%f",&c);
     for(b=1;b<=N;b++)
     {
         if(e[b].p>c)
         {
-            printf("Books above price %d",c);
+            printf("Books above price %.2f",c);
             printf("Title: %s, Author: %s, Price: %.2f\n",e[b].t,e[b].a,e[b].p);
         }
     }
