@@ -10,7 +10,8 @@ struct Subscription
 int main()
 {
     int a,N;
-    float Standard=0,Premium=0,Basic=0,revenue,revenue2,revenue;
+    int Standard=0,Premium=0,Basic=0;
+    float revenue,revenue2,revenue;
     scanf("%d",&N);
     struct Subscription e[20];
     for(a=0;a<N;a++)
