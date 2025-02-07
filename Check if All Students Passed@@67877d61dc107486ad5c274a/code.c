@@ -19,7 +19,7 @@ int main()
     }
     for(a=0;a<N;a++)
     {
-        if(e[a].m>t)
+        if(e[a].m>50)
         printf("All Passed");
         else
         printf("Not All Passesd");
