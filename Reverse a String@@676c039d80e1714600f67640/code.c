@@ -3,7 +3,7 @@
 int main()
 {
     char a[50];
-    gets(a);
+    scanf("%s",a);
     strrev(a);
     puts(a);
 }
