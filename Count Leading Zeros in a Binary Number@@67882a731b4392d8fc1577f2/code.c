@@ -2,11 +2,10 @@
 
 int main() {
     int number;
-    printf("Enter a number: ");
     scanf("%d", &number);
 
     if (number == 0) {
-        printf("The number of leading zeros is: 32\n");
+        printf("32\n");
         return 0;
     }
 
@@ -18,6 +17,6 @@ int main() {
         bit_mask >>= 1;
     }
 
-    printf("The number of leading zeros is: %d\n", count);
+    printf("%d\n", count);
     return 0;
 }
