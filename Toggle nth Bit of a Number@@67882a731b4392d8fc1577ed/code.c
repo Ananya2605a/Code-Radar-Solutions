@@ -6,4 +6,5 @@ int main()
     scanf("%d %d",&a,&b);
     c=a^(1<<n);
     printf("%d",c);
+    return 0;
 }
