@@ -2,7 +2,7 @@
 
 int main() {
     int number;
-    printf("Enter a number: ");
+   
     scanf("%d", &number);
 
     int position = 0;  // Position starts from 0
@@ -14,7 +14,7 @@ int main() {
     if (number == 0) {
         printf("The number has no set bits.\n");
     } else {
-        printf("The position of the lowest set bit is: %d\n", position);
+        printf("%d\n", position);
     }
 
     return 0;
