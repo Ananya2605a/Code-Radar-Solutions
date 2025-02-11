@@ -8,7 +8,7 @@ int main()
 	{
 		for(c=d;c>=a;c--)
 		{
-			printf(" ");
+			printf("");
 		}
 		for(b=1;b<=2*a-1;b++)
 		{
@@ -20,7 +20,7 @@ int main()
 	{
 		for(c=d;c>=a;c--)
 		{
-			printf(" ");
+			printf("");
 		}
 		for(b=1;b<=2*a-1;b++)
 		{
