@@ -24,6 +24,10 @@ int main()
             scanf("%f",&e[a].m);
             
         }
+        for(i=0;i<N;i++)
+        {
+            highest.m=-1;
+        }
         for(a=1;a<=N;a++)
         {
             if(e[a].m>highest.m)
@@ -31,9 +35,12 @@ int main()
                 highest.m=e[a].m;
                 highest.r=e[a].r;
                 strcpy(highest.n,e[a].n);
-                printf("Roll Number: %d, Name: %s, Marks: %.2f\n",highest.r,highest.n,highest.m);
+                maxIndex = a;
+                
                 
             }
+            printf("Roll Number: %d, Name: %s, Marks: %.2f\n",highest.r,highest.n,highest.m);
+            e[maxIndex].m = -1;
         }
         
             return 0;
