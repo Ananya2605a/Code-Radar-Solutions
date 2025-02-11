@@ -1,23 +1,23 @@
 #include <stdio.h>
 int main()
 {
-int a,c,N;
-scanf("%d",&N)
-for(a=1;a<=N;a++)
-{
-    for(c=N;c>=a;c--)
-    {
-        printf(" ");
-    }
-    for(c=1;c<=a;c++)
-    {
-        printf("%d",c);
-    }
-    for(c=N-1;c>=a;c--)
-    {
-        printf("%d",c);
-    }
-    printf("\n");
-}
-return 0;
+int a,b,c,d;
+scanf("%d",&d);
+	for(a=1;a<=d;a++)
+	{
+		for(b=a;b<d;b++)
+		{
+			printf(" ");
+		}
+		for(b=1;b<=a;b++)
+		{
+			printf("%d",b);
+		}
+		for(b=a-1;b>=1;b--)
+		{
+			printf("%d",b);
+		}
+		printf("\n");
+	}
+	
 }
