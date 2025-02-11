@@ -22,10 +22,6 @@ int main()
 		{
 			printf(" ");
 		}
-		for(b=1;b<=a;b++)
-		{
-		   printf("*",b);
-		}
 		printf("\n");
 	}
     
