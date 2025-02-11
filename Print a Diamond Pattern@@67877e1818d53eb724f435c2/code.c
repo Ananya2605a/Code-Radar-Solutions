@@ -14,7 +14,9 @@ int main() {
     }
     for(a=1;a<=d;a++)
     {
+        for(b = 1; b<=a;b++){
         printf("*");
+        }
     }
     for(a = d - 1; a >= 1; a--) {
         for(c = d; c >= a; c--) {
