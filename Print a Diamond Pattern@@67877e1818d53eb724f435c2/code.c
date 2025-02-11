@@ -17,6 +17,7 @@ int main() {
         for(b = 1; b<=a;b++){
         printf("*");
         }
+        printf("\n");
     }
     for(a = d - 1; a >= 1; a--) {
         for(c = d; c >= a; c--) {
