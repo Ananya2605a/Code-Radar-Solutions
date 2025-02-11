@@ -12,6 +12,10 @@ int main() {
         }
         printf("\n");
     }
+    for(a=1;a<=d;a++)
+    {
+        printf("*");
+    }
     for(a = d - 1; a >= 1; a--) {
         for(c = d; c >= a; c--) {
             printf(" ");
