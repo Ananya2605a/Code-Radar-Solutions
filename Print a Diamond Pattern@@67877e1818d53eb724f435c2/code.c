@@ -12,7 +12,7 @@ int main()
 		}
 		for(b=1;b<=2*a-1;b++)
 		{
-		   printf("* ",b);
+		   printf("*",b);
 		}
 		printf("\n");
 	}
@@ -24,7 +24,7 @@ int main()
 		}
 		for(b=1;b<=2*a-1;b++)
 		{
-		   printf("* ",b);
+		   printf("*",b);
 		}
 		printf("\n");
 	}
