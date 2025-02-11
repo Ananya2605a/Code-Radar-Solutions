@@ -31,7 +31,7 @@ int main()
                 highest.m=e[a].m;
                 highest.r=e[a].r;
                 strcpy(highest.n,e[a].n);
-                printf("Roll Number: %d, Name: %s, Marks: %.2f",highest.r,highest.n,highest.m);
+                printf("Roll Number: %d, Name: %s, Marks: %.2f\n",highest.r,highest.n,highest.m);
                 
             }
         }
