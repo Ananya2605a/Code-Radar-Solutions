@@ -13,7 +13,7 @@ int main()
     struct Day e[20];
     for(a=0;a<7;a++)
     {
-        scanf("%s %s %d",e[a].d,e[a].n,&e[a].t);
+        scanf("%s %d",e[a].d,&e[a].t);
     }
     for(a=0;a<7;a++)
     {
