@@ -22,5 +22,6 @@ int main()
 
     }
     printf("%d %d",counte,counto);
+    return 0;
 
 }
