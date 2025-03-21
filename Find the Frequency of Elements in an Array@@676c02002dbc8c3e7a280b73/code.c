@@ -11,7 +11,9 @@ int main()
     }
     for(i=0;i<N;i++)
     {
+        count++;
         printf("%d %d",i,count);
+
     }
 
 }
