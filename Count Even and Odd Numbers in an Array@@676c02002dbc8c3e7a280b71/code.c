@@ -2,10 +2,14 @@
 int main()
 {
     int N,counte=0,counto=0;
+    scanf("%d",&N);
     int a[N];
     int i;
-    scanf("%d",&N);
-    for(i=0;i<=N;i++)
+    for(i=0;i<N;i++)
+    {
+        scanf("%d",&a[N]);
+    }
+    for(i=0;i<N;i++)
     {
         if(a[i]%2==0)
         {
