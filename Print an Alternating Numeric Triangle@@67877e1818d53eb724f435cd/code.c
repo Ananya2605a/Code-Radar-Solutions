@@ -1,15 +1,15 @@
 #include <stdio.h>
 int main()
 {
-    int n,num=1,i,j,value;
-    scanf("%d",&n);
-    for(i=1;i<=n;i++)
+    int a,b,c,value;
+    scanf("%d",&c);
+    for(a=1;a<=c;a++)
     {
-        value = (i%2==0) ? 0:1;
-        for(j=1;j<=i;j++)
+        value=(a%2==0)?0:1;
+        for(b=1;b<=a;b++)
         {
             printf("%d ",value);
-            value = 1- value;
+            value=1-value;
         }
         printf("\n");
     }
