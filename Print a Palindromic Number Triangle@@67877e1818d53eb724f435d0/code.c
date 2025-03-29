@@ -1,11 +1,11 @@
 #include <stdio.h>
 int main()
 {
-int a,b,c,d;
-scanf("%d",&d);
-	for(a=1;a<=d;a++)
+	int a,b,c;
+	scanf("%d",&c);
+	for(a=1;a<=c;a++)
 	{
-		for(b=a;b<d;b++)
+		for(b=d;b<=a;b++)
 		{
 			printf(" ");
 		}
@@ -19,5 +19,4 @@ scanf("%d",&d);
 		}
 		printf("\n");
 	}
-	
 }
