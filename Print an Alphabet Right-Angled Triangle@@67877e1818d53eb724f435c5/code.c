@@ -9,6 +9,6 @@ int main()
         {
             printf("%c ",'A'+b);
         }
-        pritnf("\n");
+        printf("\n");
     }
 }
