@@ -5,10 +5,10 @@ int main()
     scanf("%d",&c);
     for(a=1;a<=c;a++)
     {
-        for(b=0;b<a;b++)
+        for(b=0;b<=a;b++)
         {
             printf("%c ",'A'+b);
         }
-        printf("\n");
+        pritnf("\n");
     }
 }
