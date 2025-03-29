@@ -7,7 +7,7 @@ int main()
     {
         for(b=1;b<=c;b++)
         {
-            if(a==1 || a==c || b==1 || b==c )
+            if(a==1 || a==c || b==1 || b==c)
             {
                 printf("*");
             }
@@ -15,7 +15,6 @@ int main()
             {
                 printf(" ");
             }
-
         }
         printf("\n");
     }
