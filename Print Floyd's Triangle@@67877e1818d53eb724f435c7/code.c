@@ -5,11 +5,11 @@ int main()
     scanf("%d",&c);
     for(a=1;a<=c;a++)
     {
-        value=(a%2==0) ? 0:1;
         for(b=1;b<=a;b++)
         {
-            printf("%d",value);
-            value=1-value;
+            printf("%d",num);
+            num++;
+
         }
         printf("\n");
     }
