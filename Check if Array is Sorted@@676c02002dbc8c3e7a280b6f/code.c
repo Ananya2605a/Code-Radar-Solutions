@@ -19,22 +19,18 @@ int main()
                 a[j]=a[j+1];
                 a[j+1]=temp;
                 found=1;
-                int issorted=0;
+                 issorted=0;
             }
         }
     
-    if(found==0) 
-    {
-        break;
+    if(found==0)  break;
     }
-    }
+    
     if(issorted)
     {
         printf("Sorted\n");
     }
-    else{
-        printf("Not Sorted");
-    }
+   
    
     
     return 0;
