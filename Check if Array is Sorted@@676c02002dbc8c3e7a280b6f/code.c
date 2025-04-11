@@ -19,7 +19,7 @@ int main()
                 a[j]=a[j+1];
                 a[j+1]=temp;
                 found=1;
-                int isinitiallysorted=1;
+                int issorted=0;
             }
         }
     
