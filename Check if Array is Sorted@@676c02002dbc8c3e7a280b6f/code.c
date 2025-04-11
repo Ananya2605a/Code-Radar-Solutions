@@ -1,7 +1,7 @@
 #include<stdio.h>
 int main()
 {
-    int n,found=1;
+    int n,found=1,issorted=1;
     scanf("%d",&n);
     int a[n];
     for(int i=0;i<n;i++)
@@ -23,7 +23,11 @@ int main()
             }
         }
     }
-    if(found)
+    if(found==0) 
+    {
+        break;
+    }
+    if(issorted)
     {
         printf("Sorted");
     }
