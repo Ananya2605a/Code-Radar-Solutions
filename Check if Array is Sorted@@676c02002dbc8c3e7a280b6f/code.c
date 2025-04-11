@@ -22,17 +22,15 @@ int main()
                 int isinitiallysorted=1;
             }
         }
-    }
+    
     if(found==0) 
     {
         break;
+    }
     }
     if(issorted)
     {
         printf("Sorted");
     }
-    else
-    {
-        printf("Not Sorted");
-    }
+    return 0;
 }
