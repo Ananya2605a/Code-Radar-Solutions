@@ -30,6 +30,9 @@ int main()
     {
         printf("Sorted\n");
     }
+    else{
+        printf("Not Sorted");
+    }
    
    
     
