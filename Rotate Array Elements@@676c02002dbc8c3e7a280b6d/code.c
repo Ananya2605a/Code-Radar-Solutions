@@ -10,7 +10,7 @@ void rotate(int a[],int k,int n)
     {
         printf("%d\n",a[i]);
     }
-    printf("\n");
+    // printf("\n");
 }
 int main()
 {
