@@ -15,12 +15,13 @@ void rotate(int a[],int k,int n)
 int main()
 {
     int n,k;
-    scanf("%d %d",&n,&k);
+    scanf("%d",&n);
     int a[n];
     for(int i=0;i<n;i++)
     {
         scanf("%d",&a[i]);
     }
+    scanf("%d",&k);
     rotate(a,k,n);
     return 0;
 }
