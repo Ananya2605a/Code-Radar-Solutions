@@ -30,10 +30,9 @@ int main()
     }
     if(issorted)
     {
-        printf("Sorted");
+        printf("Sorted\n");
     }
-    else{
-        printf("Not Sorted");
-    }
+   
+    
     return 0;
 }
