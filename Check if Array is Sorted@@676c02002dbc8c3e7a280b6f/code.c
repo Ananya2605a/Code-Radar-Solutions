@@ -19,11 +19,11 @@ int main()
                 a[j]=a[j+1];
                 a[j+1]=temp;
                 found=1;
-                isinitiallysorted=1;
+                int isinitiallysorted=1;
             }
         }
     }
-    if(isinitiallysorted)
+    if(found)
     {
         printf("Sorted");
     }
