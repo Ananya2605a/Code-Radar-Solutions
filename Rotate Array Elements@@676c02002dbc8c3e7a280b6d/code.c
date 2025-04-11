@@ -2,11 +2,11 @@
 void rotate(int a[],int k,int n)
 {
     k=k%n;
-    for(int i=k-n;i<n;i++)
+    for(int i=n-k;i<n;i++)
     {
         printf("%d\n",a[i]);
     }
-    for(int i=0;i<k-n;i++)
+    for(int i=0;i<n-k;i++)
     {
         printf("%d\n",a[i]);
     }
