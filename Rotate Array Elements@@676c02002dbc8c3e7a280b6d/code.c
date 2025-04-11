@@ -21,6 +21,6 @@ int main()
     {
         scanf("%d",&a[i]);
     }
-    rotate(a,n,k);
+    rotate(a,k,n);
     return 0;
 }
