@@ -1,5 +1,5 @@
 #include<stdio.h>
-void rotate(arr[],int k,int n)
+void rotate(a[],int k,int n)
 {
     k=k%n;
     for(int i=k;i<n;i++)
